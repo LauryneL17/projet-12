@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+#about {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+}
+
+.image-col {
+  flex-shrink: 0; 
+}
+
+.text-col {
+  max-width: 600px; 
+  text-align: left;
+}
+
+.photo {
+  width: 150px;
+  height: auto;
+  border-radius: 50%; 
+}
+
+#about p {
+  margin: 1rem 0;
+}
+
+#projects {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project {
+  background-color: #e9ecef;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+}
+
+.site-link-btn {
+  background-color: #007bff; 
+  color: white;              
+  padding: 0.5rem 1rem;      
+  border: none;              
+  border-radius: 5px;        
+  cursor: pointer;           
+  text-align: center;        
+  display: inline-block;     
+  margin-top: 1rem;         
+}
+
+.site-link-btn:hover {
+  background-color: #0056b3; 
+}
+
+#contact {
+  padding: 2rem 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 2rem;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #5922b1;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff4dbb;
+}
+
+
+.project-details {
+  display: none;
+  margin-top: 1rem;
+}
+
+.toggle-btn {
+  margin-top: 1rem;
+  background-color: #230f96;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #f50390f5;
+}
+
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
